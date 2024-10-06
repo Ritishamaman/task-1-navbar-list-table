@@ -1,0 +1,49 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  padding: 10px;
+  color: white;
+  margin-bottom: 20px;
+}
+.navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+}
+.decoration li {
+  list-style-type: square;
+}
+.image-list {
+  list-style: none;
+}
+.image-list li {
+  background-image: url("https://hips.hearstapps.com/hmg-prod/images/red-heart-64308e503e5fe.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  background-size: 20px 20px;
+  padding-left: 30px;
+  line-height: 1.5;
+  margin: 5px 0;
+  height: 30px;
+}
+.image-list1 {
+  list-style: none;
+}
+.image-list1 li {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRodDFUP8JHtrqfkgVULn47lUytplCq0fGXHw&s");
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  background-size: 20px 20px;
+  padding-left: 30px;
+  line-height: 1.5;
+  margin: 5px 0;
+  height: 30px;
+}
